@@ -34,3 +34,7 @@ p, li {font-size: 24pt;}
 .right-column {
   float: right;
 }
+
+.remark-notes *, .remark-notes-preview * {
+  font-size: 12pt;
+}

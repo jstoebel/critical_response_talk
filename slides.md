@@ -36,6 +36,8 @@ class: center, middle
 
 - In a toxic environment where teams don't trust each other we could imagine all kinds of abusive behavior justified with the "don't take it personally" defense.
 
+- "I'm not a nice person, and I don't care about you. I care about the technology and the kernel—that's what's important to me." ~ Linus Torvalds
+
 - Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
 
 ---
@@ -57,8 +59,9 @@ class: center, middle
 _Objective: inspire the creator to go back to their work with fresh eyes, excited about making their creation even better._
 
 ???
-- I propose that the concept of balancing kindness and honesty is a false dichotomy. Really its about inspiration: inspiration to to go back to the work and make it even better. That's what this talk is about.
-- This is the gist of the critical response process created by Liz Lerman
+- I propose that the concept of balancing kindness and honesty is a false dichotomy. Really its about inspiration: inspiration to to go back to the work and make it even better.
+- This talk is about the Liz Lerman Critical Response process.
+- The basic gist is to inspire the creator to go back to their work with fresh eyes, excited about making their creation even better.
 - This story takes us to, believe it or not the dance world. The dance world which Liz Lerman comes from, was and is notoriously harsh in its culture of feedback. Lerman wanted a framework where creators were encouraged to think critically about their work and _wanted_ to revise it as opposed to earning a "good grade" in order to further their career.
 - This makes sense: if you're number one objective is to earn a "good grade", what impact would you expect on creativity?
 - The Critical Response Process has been used by artists, administrators, scientists, academics, and even in the corporate sector. It isn't constrained to works that we would traditionally call "Art". Really, its for anything creative. Software is a perfect use case for this!
@@ -191,7 +194,6 @@ Here's where responders may give their opinions on the work with the consent of 
 class: middle
 
 .left-column.column[
-## Good Example
 Responder: I have an opinion about response times in production. Would you like to hear it?
 
 Creator(s): Sure!
@@ -200,7 +202,6 @@ Responder: _opinion here_
 ]
 
 .right-column.column[
-## Bad Example
 Responder: I have an opinion about the use of FactoryBot in this project, would you like to hear it?
 
 Creator(s): No thanks!
