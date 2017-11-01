@@ -24,10 +24,27 @@ This seems to be the attitude among many developers: I can either
 - Some developers from those same groups have identified a double standard, where if _they_ were to give overly critical code reviews, they would be dismissed as angry, pushy or difficult to work with.
 
 ---
+
+# Toxic Code Reviews: Some Examples
+## Paraphrased heavily from Erik Dietrich (@daedtech)
+
+ - Nit picking session: How to name variables, how to organize files, clever one liners...
+ - Marathon: Let's go over every line and discuss _ad nauseum_ and compare it with what was changed.
+ - Firing Squad: Reviewers' job is to find everything wrong with the code possible.
+ - The Exit Exam: The code review is something to be "passed" in order for the PR to be merged.
+
+???
+ - There's a great blog article by Erik Dietrich called "How to Use a Code Review to Execute Someone’s Soul" that lists some of flavors of toxic code reviews
+ - Nit picking session: Where we spend a lot of time pointing out little things about the code. 
+ - I don't think code reviews are the best place for this sort of thing (linters are better)
+ - So much of the stuff like this can come up as opinion disguised as fact. "I think local variables should be lowercase_underscored" becomes "variables in ruby should be underscored".
+ - Marathon: where we go over everything _ad nauseum_. This may sound harmless enough but 1) do we really have time for that and 2) I've known people in my professional life that are able to get their way simply by talking the longest. When an argument ensues they just dig in their heels for as long as it takes until the opposing party can't go on (tired, hungry, need to pick up their kids, etc.) and they win by default.
+ - Firing squad and Exit Exam: where the relationship becomes adversarial. I am going to try to poke as many holes in your code as I can to find deficiencies. Your code either "passes" and gets merged in or "fails" and it doesn't. I think this can have some serious side effects.
+
+---
 class: center, middle
 
 # Don't take it personally
-
 
 ???
 - I find this framework particularly concerning because it opens the door to toxic criticism couched in the disclaimer that "I'm just focused on the code. Don't take it personally."
@@ -37,6 +54,12 @@ class: center, middle
 - In a toxic environment where teams don't trust each other we could imagine all kinds of abusive behavior justified with the "don't take it personally" defense.
 
 - "I'm not a nice person, and I don't care about you. I care about the technology and the kernel—that's what's important to me." ~ Linus Torvalds
+
+- I've given this talk before and I've been asked the question "But Linus Torvalds has created so much. For that matter so did Steve Jobs. Aren't brilliant jerks just something worth living with". 
+
+- For one thing, I think this ignores the externalities involved when people in power are allowed to abuse that power under the excuse that their output is so great. Those externalities could include team burnout, people being afraid to speak out or make mistakes (we're a creative profession we need to have _some_ freedom to fail). This can be from the jerk, but also from others due to the negative culture that they contribute to. At its worst there's sexual assault, sexual harassment, discrimination, and workplace bullying just to name a few. If you add all of that up, are brilliant jerks still worth it?
+
+- At its most fundamental level though, I'm not convinced we can ask team mates to just leave their emotions at the door. There is a large body of research out there that we are, at a neurological level, emotional creatures. Emotions are a fundamental part of who we are.
 
 - Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
 
@@ -91,6 +114,7 @@ There are four steps to this feedback process:
 
 Step 1: Responders state what about the work had meaning, was interesting or stood out. We can think of this as a way to generate material of what to talk about in more depth later in the process. The important part here is that statements are not evaluative in this step. We save those for later.
 
+There's a great talk from RailsConf 2016 by Nadia Odunayo called _The Guest: A Guide To Code Hospitality_ In it, she proposes that we think about introducing a person to a code base in the same way that a host welcomes a guest into their home. If you are a guest in someone's home you probably wouldn't, upon walking into their home for the first time point out the dirty clothes on the floor. 
 ---
 class: middle
 
@@ -156,6 +180,8 @@ Responder ask questions to make sure they understand the full context. **Questio
 ???
 Step 3: Neutral Questions from the Responders
 Responder ask questions to make sure they understand the full context. Questions should not have an embedded opinion.
+
+**LET'S HAVE AN EXAMPLE HERE** 
 
 **If you’ve ever given a talk and had someone give a critique disguised as a question, you know what this is.**
 
