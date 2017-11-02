@@ -47,7 +47,9 @@ class: center, middle
 # Don't take it personally
 
 ???
-- I find this framework particularly concerning because it opens the door to toxic criticism couched in the disclaimer that "I'm just focused on the code. Don't take it personally."
+- You can spot a toxic code review when its defended using something along the lines of "I'm just focused on the code. Don't take it personally."
+
+- I find this framework particularly concerning because it opens the door to toxic criticism.
 
 - While I agree that as developers we might not want to be _too_ attached to our code, I think the phrase "Don't take it personally" is flawed. We are thought workers after all, and our code is a reflection of the way we view the world. The assumption that we can completely compartmentalize doesn't seem possible to me.
 
@@ -238,24 +240,42 @@ _moving on..._
 ---
 class: middle
 
-# Alternatives implementations could...
- - Involve agreeing on a standard work flow ahead of time.
- - Happen on the fly
+# FAQs
+
+ - Does this mean I can say "no thanks" to my manager's opinions?
+ - This framework seems rigid. Does it have to be?
+ - Do you really expect jerks to go along with this?
+ - Are there ever times where this framework wouldn't be the most efficient?
 
 ???
- - You may be saying to yourself, this all sounds great, but it wouldn't work for me or my team because of _____. 
- - That's fine! The great thing about this process is that its adaptable. For example:
- - In many work places you can't simply say "no thanks" to your manager. But maybe you can come up with a shared understand of when and how feedback should be given. Here, opinions (so long as they are thoughtful and well timed) are allowed based on the working relationship.
- - On the fly: on the other hand teams can fluidly slip into this process, on the fly, without a formal deceleration that "we are going to do the critical response process now". 
- - As a responder, any time you ask a clarifying question or two before giving an opinion (step 3) that's a win, because you are empowering the creator. The creator doesn't even need to know about the Critical Response Process.
- - Likewise, as a creator you can (given a positive workplace culture) set the conversation on a productive path by asking questions that you are dying to know about your work.
----
+- The nice thing about this framework is that its flexible. For example, here are some questions I've gotten.
+- Does this mean I can say "no thanks" to my manager's opinions? The answer is, probably not, but it does mean you and your manager can establish a shared understanding of when and how feedback should be given. Opinions (so long as they are thoughtful and well timed) are allowed based on the working relationship.
+- Another critique I hear about this framework is that it seems too rigid to be practical. For example:
+    + people say their team would prefer the code review to be a more fluid discussion. That's fine. A facilitator familiar with this approach can skip forward and backward into this process based on the needs of the group. 
+    + Its also possible to use this process when not everyone knows it by name. If, as a responder you ask questions before giving your opinion, that's a win. If, as a creator, you are guiding the conversation with your questions about the work, that's a win.
+    + I gave this talk at my local meet up recently and one person commented after that "great teams do this naturally without a name for it". I think that's totally true
+- Another question totally disguised as opinion is "Do you really expect jerks to go along with this?" Honestly, I don't. But I also think / hope that in an work environment that isn't completely toxic, there may be some people that will refuse to do this, but there's hopefully more people that _would_ do it if they knew how.
+- While there is formal training on this (I did a day long training with Lerman) you don't need it to get started. Consider yourself empowered to encourage this at your organization.
+- Another question I've gotten before is "Is this process always the best approach?" If your network is down, you probably want to get it back up first as fast as possible without having a long discussion about it. But a debrief on the incident later on would be a perfect opportunity to use this process to explore how we can learn from the incident in a non judgmental environment. 
 
+---
+class: middle
+
+# Recap
+
+ 1. Statements of Meaning
+ 2. Questions from Creator
+ 3. Neutral questions from responders
+ 4. Opinions with consent of creators
+
+---
 # Resources
 
  - [https://lizlerman.com/critical-response-process/](https://lizlerman.com/critical-response-process/)
  - _Liz Lerman's critical response process: A method for getting useful feedback on anything you make, from dance to dessert_, Liz Lerman and John Borstel (2003)
  - [http://www.jstoebel.com/honesty-kindness-and-inspiration-pick-three/](http://www.jstoebel.com/honesty-kindness-and-inspiration-pick-three/)
+ - [https://www.daedtech.com/how-to-use-a-code-review-to-execute-someones-soul/](https://www.daedtech.com/how-to-use-a-code-review-to-execute-someones-soul/)
+ - [https://www.youtube.com/watch?v=hHzWG1FltaE](https://www.youtube.com/watch?v=hHzWG1FltaE)
 
 ---
 class: center, middle
@@ -265,4 +285,6 @@ class: center, middle
 # @jstoebel
 
 # www.jstoebel.com
+
+# github.com/jstoebel/critical_response_talk
 
