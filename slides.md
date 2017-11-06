@@ -35,11 +35,12 @@ This seems to be the attitude among many developers: I can either
 
 ???
  - There's a great blog article by Erik Dietrich called "How to Use a Code Review to Execute Someone’s Soul" that lists some of flavors of toxic code reviews
- - Nit picking session: Where we spend a lot of time pointing out little things about the code. 
+ - **Nit picking session:** Where we spend a lot of time pointing out little things about the code. 
  - I don't think code reviews are the best place for this sort of thing (linters are better)
  - So much of the stuff like this can come up as opinion disguised as fact. "I think local variables should be lowercase_underscored" becomes "variables in ruby should be underscored".
- - Marathon: where we go over everything _ad nauseum_. This may sound harmless enough but 1) do we really have time for that and 2) I've known people in my professional life that are able to get their way simply by talking the longest. When an argument ensues they just dig in their heels for as long as it takes until the opposing party can't go on (tired, hungry, need to pick up their kids, etc.) and they win by default.
- - Firing squad and Exit Exam: where the relationship becomes adversarial. I am going to try to poke as many holes in your code as I can to find deficiencies. Your code either "passes" and gets merged in or "fails" and it doesn't. I think this can have some serious side effects.
+ - There can also be pressure as a reviewer to find something, _anything_ wrong with the code. If I don't will my co-workers think I'm lazy or incompetent? The result is a deluge of hot takes that can bury the important stuff. Its also not a great use of time.
+ - **Marathon:** where we go over everything _ad nauseum_. This may sound harmless enough but 1) do we really have time for that and 2) I've known people in my professional life that are able to get their way simply by talking the longest. When an argument ensues they just dig in their heels for as long as it takes until the opposing party can't go on (tired, hungry, need to pick up their kids, etc.) and they win by default.
+ - **Firing squad and Exit Exam:** where the relationship becomes adversarial. I am going to try to poke as many holes in your code as I can to find deficiencies. Your code either "passes" and gets merged in or "fails" and it doesn't. I think this can have some serious side effects.
 
 ---
 class: center, middle
@@ -66,6 +67,26 @@ class: center, middle
 - Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
 
 ---
+# Other code review anti-patterns
+
+ - The bottle neck
+ - Reviewer has not enough context
+ - Reviewer too close to project
+ - Summative rather than formative
+ - Homework
+ - Not everyone believes in the process.
+
+???
+There's more. Do some Googling and you find all kinds of reasons why code reviews fail. Here's some I found.
+
+ - Bottle neck: A single person on the team is responsible for reviewing everyone's code, nothing can go forward until they are satisfied. As a result, people start writing their code with the objective of getting it past that person "don't do it that way ___ won't like it."
+ - Other teams like to have an outside person handle their code reviews. I think this is interesting because you're bringing in a fresh perspective. Problems can happen when the reviewer doesn't have enough context before they start diving in. The review ends up being like a copy editor marking up all of your typos, but not able to give higher order feedback because they don't understand the larger system.
+ - On the other hand, a reviewer that is too close to the work might be to deep into the work in order to see the bigger picture. They miss the forest for the trees.
+ - Code reviews that are summative (happening at the end of the process) have been seen as less effective. After all, would you rather get feedback on a big chunk of work you wrote 2 weeks ago, a small chunk of work you wrote yesterday?
+ - Several blogs I've read have talked about code reviews as a burdensome pile of work. Everytime you get through it (on top of doing your own work) another huge pile is dumped into your inbox.
+ - All of this, and more can lead to teams losing faith in the code review process. When we have to use a work flow we don't believe in, of course its not going to go well.
+
+---
 class: center, middle
 
 # Poop Sandwich
@@ -84,10 +105,8 @@ class: center, middle
 _Objective: inspire the creator to go back to their work with fresh eyes, excited about making their creation even better._
 
 ???
-- I propose that the concept of balancing kindness and honesty is a false dichotomy. Really its about inspiration: inspiration to to go back to the work and make it even better.
-- This talk is about the Liz Lerman Critical Response process.
-- The basic gist is to inspire the creator to go back to their work with fresh eyes, excited about making their creation even better.
-- This story takes us to, believe it or not the dance world. The dance world which Liz Lerman comes from, was and is notoriously harsh in its culture of feedback. Lerman wanted a framework where creators were encouraged to think critically about their work and _wanted_ to revise it as opposed to earning a "good grade" in order to further their career.
+- Lerman proposes that the concept of balancing kindness and honesty is a false dichotomy. Really its about inspiration: inspiration to to go back to the work and make it even better.
+- This story takes us to, believe it or not the dance world. The dance world was and is notoriously harsh in its culture of feedback. Lerman wanted a framework where creators were encouraged to think critically about their work and _wanted_ to revise it as opposed to earning a "good grade" in order to further their career.
 - This makes sense: if you're number one objective is to earn a "good grade", what impact would you expect on creativity?
 - The Critical Response Process has been used by artists, administrators, scientists, academics, and even in the corporate sector. It isn't constrained to works that we would traditionally call "Art". Really, its for anything creative. Software is a perfect use case for this!
 
