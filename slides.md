@@ -29,9 +29,9 @@ This seems to be the attitude among many developers: I can either
 ## Paraphrased heavily from Erik Dietrich (@daedtech)
 
  - Nit picking session: How to name variables, how to organize files, clever one liners...
- - Marathon: Let's go over every line and discuss _ad nauseum_ and compare it with what was changed.
- - Firing Squad: Reviewers' job is to find everything wrong with the code possible.
- - The Exit Exam: The code review is something to be "passed" in order for the PR to be merged.
+ - Marathon: Let's go over every line and discuss _ad nauseum_
+ - Firing Squad: Find everything you did wrong
+ - The Exit Exam: The code review is something to be "passed".
 
 ???
  - There's a great blog article by Erik Dietrich called "How to Use a Code Review to Execute Someone’s Soul" that lists some of flavors of toxic code reviews
@@ -64,8 +64,6 @@ class: center, middle
 
 - At its most fundamental level though, I'm not convinced we can ask team mates to just leave their emotions at the door. There is a large body of research out there that we are, at a neurological level, emotional creatures. Emotions are a fundamental part of who we are.
 
-- Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
-
 ---
 # Other code review anti-patterns
 
@@ -85,7 +83,7 @@ There's more. Do some Googling and you find all kinds of reasons why code review
  - Code reviews that are summative (happening at the end of the process) have been seen as less effective. After all, would you rather get feedback on a big chunk of work you wrote 2 weeks ago, a small chunk of work you wrote yesterday?
  - Several blogs I've read have talked about code reviews as a burdensome pile of work. Everytime you get through it (on top of doing your own work) another huge pile is dumped into your inbox.
  - All of this, and more can lead to teams losing faith in the code review process. When we have to use a work flow we don't believe in, of course its not going to go well.
-
+ - Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
 ---
 class: center, middle
 
@@ -301,9 +299,9 @@ class: center, middle
 
 # Jacob Stoebel
 
-# @jstoebel
+### @jstoebel
 
-# www.jstoebel.com
+### www.jstoebel.com
 
-# github.com/jstoebel/critical_response_talk
+###  github.com/jstoebel/critical_response_talk
 
