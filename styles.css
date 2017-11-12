@@ -11,13 +11,29 @@
   src: url('UbuntuMono-Regular.ttf');
 }
 
-body { font-family: 'Droid Serif'; }
+body { font-family: 'Georgia';letter-spacing:0.025em;}
+h1, h2, h3 {
+  font-family: 'Georgia';
+  font-weight: normal;
+}
+.remark-slide-content h1 { font-size: 2.4em; color:#606060;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
+.remark-slide-content h2 { font-size: 1.55em;color:#606060;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
+.remark-slide-content  h3 { font-size: 1.4em;color:#606060;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
+.remark-slide-content p,ol,ul { font-size: 1.2em; }
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-fading { z-index: 9; } 
+  
+/* Thanks to http://www.partage-it.com/animez-vos-presentations-remark-js/  (in French) */
+.remark-slide-container {transition: opacity 0.5s ease-out;opacity: 0;}
+.remark-visible {transition: opacity 0.5s ease-out;opacity: 1;}
+
+/*body { font-family: 'Droid Serif'; }
 h1, h2, h3 {
   font-family: 'Helvetica Neue,Helvetica,Arial,sans-serif';
   font-weight: normal;
 }
 
-p, li {font-size: 24pt;}
+p, li {font-size: 24pt;}*/
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
