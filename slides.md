@@ -12,21 +12,16 @@ class: center, middle
 This seems to be the attitude among many developers: I can either 
 
 - Give you feedback that is touchy feely and makes you feel good but is useless or 
-
 - We can get some **real** work done but I will make you feel like garbage. 
-
 - The Tweet received several objections from people wondering aloud why feedback can't be both honest **and** kind.
-
 - Many employers seeking high code quality have created cultures that encourage code reviews leaving developers feeling unappreciated, overly criticized and, ultimately, burned out.
-
 - Women, people of color and developers from other marginalized groups have documented overly harsh, unproductive code reviews that seem more combative than productive. 
-
 - Some developers from those same groups have identified a double standard, where if _they_ were to give overly critical code reviews, they would be dismissed as angry, pushy or difficult to work with.
 
 ---
 
 # Toxic Code Reviews: Some Examples
-## Paraphrased heavily from Erik Dietrich (@daedtech)
+## Paraphrased from Erik Dietrich (@daedtech)
 
  - Nit picking session: How to name variables, how to organize files, clever one liners...
 
@@ -53,19 +48,24 @@ class: center, middle
 
 ???
 - You can spot a toxic code review when its defended using something along the lines of "I'm just focused on the code. Don't take it personally."
-
 - I find this framework particularly concerning because it opens the door to toxic criticism.
-
 - While I agree that as developers we might not want to be _too_ attached to our code, I think the phrase "Don't take it personally" is flawed. We are thought workers after all, and our code is a reflection of the way we view the world. The assumption that we can completely compartmentalize doesn't seem possible to me.
-
 - In a toxic environment where teams don't trust each other we could imagine all kinds of abusive behavior justified with the "don't take it personally" defense.
-
 - "I'm not a nice person, and I don't care about you. I care about the technology and the kernel—that's what's important to me." ~ Linus Torvalds
 
+---
+
+# Externalities of the "brilliant jerk"
+
+ - team burnout
+ - people afraid to speak up or make mistakes
+ - Bullying
+ - Discrimination
+ - Sexual harassment and assault
+
+???
 - I've given this talk before and I've been asked the question "But Linus Torvalds has created so much. For that matter so did Steve Jobs. Aren't brilliant jerks just something worth living with". 
-
 - For one thing, I think this ignores the externalities involved when people in power are allowed to abuse that power under the excuse that their output is so great. Those externalities could include team burnout, people being afraid to speak out or make mistakes (we're a creative profession we need to have _some_ freedom to fail). This can be from the jerk, but also from others due to the negative culture that they contribute to. At its worst there's sexual assault, sexual harassment, discrimination, and workplace bullying just to name a few. If you add all of that up, are brilliant jerks still worth it?
-
 - At its most fundamental level though, I'm not convinced we can ask team mates to just leave their emotions at the door. There is a large body of research out there that we are, at a neurological level, emotional creatures. Emotions are a fundamental part of who we are.
 
 ---
@@ -73,14 +73,16 @@ class: center, middle
 
 - The bottle neck
 ???
- There's more. Do some Googling and you find all kinds of reasons why code reviews fail. Here's some I found.
+ There's more. I've used this talk as an excuse to ask lots of people what they think about code reviews. If they don't like them I ask why. Here's some of what I found.
 
-  - Bottle neck: A single person on the team is responsible for reviewing everyone's code, nothing can go forward until they are satisfied. As a result, people start writing their code with the objective of getting it past that person "don't do it that way ___ won't like it."
-  - Other teams like to have an outside person handle their code reviews. I think this is interesting because you're bringing in a fresh perspective. Problems can happen when the reviewer doesn't have enough context before they start diving in. The review ends up being like a copy editor marking up all of your typos, but not able to give higher order feedback because they don't understand the larger system.
-  - On the other hand, a reviewer that is too close to the work might be to deep into the work in order to see the bigger picture. They miss the forest for the trees.
-  - Code reviews that are summative (happening at the end of the process) have been seen as less effective. After all, would you rather get feedback on a big chunk of work you wrote 2 weeks ago, a small chunk of work you wrote yesterday?
-  - Several blogs I've read have talked about code reviews as a burdensome pile of work. Everytime you get through it (on top of doing your own work) another huge pile is dumped into your inbox.
-  - All of this, and more can lead to teams losing faith in the code review process. When we have to use a work flow we don't believe in, of course its not going to go well.
+  - **Bottle neck**: A single person on the team is responsible for reviewing everyone's code, nothing can go forward until they are satisfied. As a result, people start writing their code with the objective of getting it past that person "don't do it that way ___ won't like it."
+  - Other teams like to have an **outside person* handle their code reviews. I think this is interesting because you're bringing in a fresh perspective. Problems can happen when the reviewer doesn't have enough context before they start diving in. The review ends up being like a copy editor marking up all of your typos, but not able to give higher order feedback because they don't understand the larger system.
+  - On the other hand, a reviewer that is **too close** to the work might be to deep into the work in order to see the bigger picture. They miss the forest for the trees.
+  - Code reviews that are **summative** (happening at the end of the process) have been seen as less effective. After all, would you rather get feedback on a big chunk of work you wrote 2 weeks ago, a small chunk of work you wrote yesterday?
+  - Code reviews being **Too asynchronous** is a legitimate challenge too. Let's say I make a commit on Monday afternoon and my colleague starts reviewing it on Tuesday. But then they have a family emergency and have to leave early and don't get around to finishing it until late Wednesday. By then, things have changed, an of course the code will have to as well, and my poor team mate wasn't alerted so his code review is all for naught. Repeat.
+  - Several blogs I've read have talked about code reviews as a burdensome pile of **homework**. Every time you get through it (on top of doing your own work) another huge pile is dumped into your inbox. 
+  - Some people have shared that their company has **Code Review required for every commit**. I see the intuition in this: having a human reviewing code as a step in your CI process. But unlike a CI server humans don't handle context switching very well. If I have to stop what I'm doing to approve your trivial change, that comes with a cost and that cost may not be worth it.
+  - All of this, and more can lead to **teams losing faith in the code review** process. When we have to use a work flow we don't believe in, of course its not going to go well.
   - Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
 
 --
@@ -94,7 +96,13 @@ class: center, middle
 - Summative rather than formative
 
 --
+- Too asynchronous
+
+--
 - Homework
+
+--
+- Code Review required for every commit
 
 --
 - Not everyone believes in the process.
@@ -215,7 +223,7 @@ Responder ask questions to make sure they understand the full context. **Questio
 Step 3: Neutral Questions from the Responders
 Responder ask questions to make sure they understand the full context. Questions should not have an embedded opinion.
 
-**LET'S HAVE AN EXAMPLE HERE** 
+ - To continue that analogy of having a guest in your home, let's say your about to take a shower in the guest bathroom and there's no hot water. You probably wouldn't ask "why's there no hot water?". Instead you might say something like "is there something special I should know about the hot water in the shower" You're leaving a space for the possibility that there may be something special about the house you don't understand ("the hot water takes a long time to come out", "I just took a shower and were out sorry!", etc)
 
 **If you’ve ever given a talk and had someone give a critique disguised as a question, you know what this is.**
 
