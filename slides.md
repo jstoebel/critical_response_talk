@@ -1,7 +1,9 @@
 class: center,middle
 # Honesty, Kindness and Inspiration: Pick Three
 
-### Jacob Stoebel (@jstoebel)
+---
+class: center,middle
+# Jacob Stoebel (@jstoebel)
 
 ---
 
@@ -71,11 +73,14 @@ class: center, middle
 ---
 class: middle, center
 
-# The "brilliant jerk"
+# Brilliant Jerk
 
 ???
 - I've given this talk before and I've been asked the question "But Linus Torvalds has created so much. For that matter so did Steve Jobs. Aren't brilliant jerks just something worth living with". 
-- For one thing, I think this ignores the externalities involved when people in power are allowed to abuse that power under the excuse that their output is so great. Those externalities could include team burnout, people being afraid to speak out or make mistakes (we're a creative profession we need to have _some_ freedom to fail). This can be from the jerk, but also from others due to the negative culture that they contribute to. At its worst there's sexual assault, sexual harassment, discrimination, and workplace bullying just to name a few. If you add all of that up, are brilliant jerks still worth it?
+- For one thing, I think this ignores the externalities involved when people in power are allowed to abuse that power under the excuse that their output is so great. Those externalities could include:
+    - team burnout, people being afraid to speak out or make mistakes (we're a creative profession we need to have _some_ freedom to fail). 
+    - This can be from the jerk, but also from others due to the negative culture that they contribute to. 
+    - At its worst there's sexual harassment, discrimination workplace bullying and sexual assault just to name a few. If you add all of that up, are brilliant jerks still worth it?
 - At its most fundamental level though, I'm not convinced we can ask team mates to just leave their emotions at the door. There is a large body of research out there that we are, at a neurological level, emotional creatures. Emotions are a fundamental part of who we are.
 
 ---
@@ -185,9 +190,9 @@ There's a great talk from RailsConf 2016 by Nadia Odunayo called _The Guest: A G
 class: middle
 
 ## Good Example
-"I noticed that the codebase has no dependencies outside the standard library."
+"I noticed that this code is written in a functional style"
 ???
-- Good example: "I noticed that the codebase has no dependencies outside the standard library."
+- Good example: "I noticed that this code is written in a functional style"
 ---
 class: middle
 
@@ -304,6 +309,13 @@ class: middle, center
 # FAQs
 ???
 The nice thing about this framework is that its flexible. For example, here are some questions I've gotten.
+---
+class: middle
+
+Would this work on Github or Slack?
+
+???
+Github no. Slack maybe, if everyone can agree to participate at the same time. We are a profession that loves asynchronous work, but the spirit of this process is that great feedback happens when everyone is in the same space with each other (real or virtual).
 ---
 class: middle
 Does this mean I can say "no thanks" to my manager's opinions?
