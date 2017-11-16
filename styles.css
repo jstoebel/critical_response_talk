@@ -1,27 +1,31 @@
 @font-face{
-  font-family: 'Droid Serif';
-  src: url('fonts/Droid_Serif/DroidSerif-Regular.ttf');
+  font-family: 'EBGaramond-Regular';
+  src: url('fonts/EB_Garamond/EBGaramond-Regular.ttf');
+  
 }
+
 @font-face{
-  font-family: 'Yanone Kaffeesatz';
-  src: url('fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf');
+  font-family: 'NunitoSans-black';
+  src: url('fonts/Nunito_Sans/NunitoSans-Black.ttf');
 }
-@font-face{
-  font-family: 'Ubuntu Mono';
-  src: url('UbuntuMono-Regular.ttf');
+
+
+h1, h2, h3 {
+  font-family: 'NunitoSans-black';
 }
 
 /*CSS modifcations by J. M. Lilly*/
-body { font-family: 'Georgia';letter-spacing:0.025em;}
-h1, h2, h3 {
-  font-family: 'Georgia';
-  font-weight: normal;
+.remark-slide-content {background-color: #adccff; padding: 20px 60px 20px 60px;}
+.remark-slide-content h1 { font-size: 64pt; font-weight: bold;letter-spacing:0.05em;margin-top: .5em; margin-bottom: 0em;}
+.remark-slide-content h2 { font-size: 50pt; font-weight: bold;letter-spacing:0.05em;margin-top:0em; margin-bottom: 0em;}
+/*.remark-slide-content  h3 { font-size: 1.4em;font-weight: bold;letter-spacing:0.05em;margin-top:0em}*/
+
+.remark-slide-content p,ol,ul { 
+  font-family: 'EBGaramond-Regular';
+  font-size: 48pt;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
-.remark-slide-content h1 { font-size: 2.4em;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
-.remark-slide-content h2 { font-size: 1.55em;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
-.remark-slide-content  h3 { font-size: 1.4em;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
-.remark-slide-content p,ol,ul { font-size: 1.5em; }
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 .remark-fading { z-index: 9; } 
   
 /* Thanks to http://www.partage-it.com/animez-vos-presentations-remark-js/  (in French) */
@@ -47,3 +51,8 @@ h1, h2, h3 {
 .remark-notes *, .remark-notes-preview * {
   font-size: 12pt;
 }
+
+#slide-resources li {
+  font-size: 24pt !important;
+}
+
