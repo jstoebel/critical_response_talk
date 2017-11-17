@@ -152,6 +152,7 @@ _I really liked how you did X but that part where you did Y was not so good. You
 
 ???
 - The poop sandwich approach is a _little_ bit better. It helps develop trust within teams because the stuff that's hard to hear is padded between two nice things.
+- __read it__
 - In a past life, I was a high school drama teacher. Balancing critical feedback with kindness was something always at the forefront of my mind.
 - The problem was that the receiver of the feedback sometimes thought of it like a report card: "I got two good grades and one bad one. On the whole I've got a decent GPA."
 - The creator thought of the good spots as as uniformly good, not needing change and the bad spots as unfixable, impossible to get any better at.
@@ -162,6 +163,7 @@ class: middle
 _Objective: inspire the creator to go back to their work with fresh eyes, excited about making their creation even better._
 
 ???
+- **read the slide**
 - Lerman proposes that the concept of balancing kindness and honesty is a false dichotomy. Really its about inspiration: inspiration to to go back to the work and make it even better.
 - This story takes us to, believe it or not the dance world. The dance world was and is notoriously harsh in its culture of feedback. Lerman wanted a framework where creators were encouraged to think critically about their work and _wanted_ to revise it as opposed to earning a "good grade" in order to further their career.
 - This makes sense: if you're number one objective is to earn a "good grade", what impact would you expect on creativity?
@@ -197,14 +199,14 @@ There's a great talk from RailsConf 2016 by Nadia Odunayo (Oh Doo Eye Oh) called
 ---
 class: middle
 
-## Good Example
+## ✅ Good Example
 "I noticed that this code is written in a functional style."
 ???
 - Good example: "I noticed that this code is written in a functional style."
 ---
 class: middle
 
-## Bad Example
+## 🚨🚨🚨 Bad Example 🚨🚨🚨
 "This version of Rails is out of date. You should update to Rails 5."
 
 ???
@@ -222,7 +224,7 @@ Responders may give their opinion about things explicitly asked about.
 
 ---
 class: middle
-## Step 2: a good example
+## ✅ Good Example
 
 "In the docs was it clear to you what this method does? If not how could I make it more clear?"
 
@@ -241,7 +243,7 @@ class: middle
 I think I understand how to call the method but not why. Maybe think about including an example use case.
 ---
 class: middle
-## Step 2: a not so good example
+## 🚨🚨🚨 Bad Example 🚨🚨🚨
 
 "No, and in general the docs were not so well organized. The way you should organize it is..."
 
@@ -268,13 +270,13 @@ Responder ask questions to make sure they understand the full context. Questions
 ---
 class: middle
 
-## Good Example
+## ✅ Good Example
 "What ideas guided you to select FactoryBot for this project?"
 ???
 Good Example: "What ideas guided you to select FactoryBot for this project?"
 ---
 class: middle
-## Bad Example
+## 🚨🚨🚨 Bad Example 🚨🚨🚨
 "What were you thinking when you chose FactoryBot for this project?"
 
 ???
@@ -298,7 +300,7 @@ class: middle
 
 **RESPONDER** I have an opinion about response times in production. Would you like to hear it?
 
-**CREATOR** Sure!
+**CREATOR** Sure! 🚀
 
 **RESPONDER** _opinion here_
 ???
@@ -312,7 +314,7 @@ class: middle
 
 **RESPONDER** I have an opinion about the use of FactoryBot in this project, would you like to hear it?
 
-**CREATOR** No thanks!
+**CREATOR** No thanks! 🛑
 
 _moving on..._
 
@@ -323,6 +325,7 @@ _moving on..._
 **CREATOR** No thanks!
 
 _moving on..._
+
 This process believes that the creator knows best how the conversation should be steered in order to yield the best results. It trusts that the creator can see when the conversation is going down an unproductive path and gives them the power to redirect.
 ---
 class: middle, center
@@ -347,7 +350,7 @@ Does this mean I can say "no thanks" to my manager's opinions?
 ---
 class: middle
 
-This framework seems rigid. Does it have to be?
+This framework seems rigid. Does it have to be? 
 ???
  - Another critique I hear about this framework is that it seems too rigid to be practical. For example:
      + people say their team would prefer the code review to be a more fluid discussion. That's fine. A facilitator familiar with this approach can skip forward and backward into this process based on the needs of the group. 
@@ -356,7 +359,7 @@ This framework seems rigid. Does it have to be?
 ---
 class: middle
 
-Do you really expect jerks to go along with this?
+Do you really expect jerks to go along with this? 
 ???
 
 - "Do you really expect jerks to go along with this?" Honestly, I don't. But I also think / hope that in an work environment that isn't completely toxic, there may be some people that will refuse to do this, but there's hopefully more people that _would_ do it if they knew how.

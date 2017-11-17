@@ -1,6 +1,7 @@
-# notes
+# before the talk
 
-[x] quotes from research on toxic code reviews
-[x] in some cases, can jerks be preferable?
-[x] reference code hospitality
-[] this framework isn't always the most efficient. example: the network is down.
+ x check in with AV folks
+ x power cycle laptop
+ - double check all names in slides and notes
+ - turn off phone
+ - close all other apps
