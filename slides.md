@@ -52,7 +52,10 @@ class: middle
 Let's go over every line and discuss _ad nauseum_.
 
 ???
-**Marathon:** where we go over everything _ad nauseum_. This may sound harmless enough but 1) do we really have time for that and 2) I've known people in my professional life that are able to get their way simply by talking the longest. When an argument ensues they just dig in their heels for as long as it takes until the opposing party can't go on (tired, hungry, need to pick up their kids, etc.) and they win by default.
+**Marathon:** where we go over everything _ad nauseum_. This may sound harmless enough but 
+
+ 1. do we really have time for that and 
+ 2. I've known people in my professional life that are able to get their way simply by talking the longest. When an argument ensues they just dig in their heels for as long as it takes until the opposing party can't go on (tired, hungry, need to pick up their kids, etc.) and they win by default.
 ---
 class: middle
 # Firing Squad
@@ -104,7 +107,7 @@ class: middle, center
 class: middle, center
 # Reviewer doesn't have enough context
 ???
-Other teams like to have an **outside person* handle their code reviews. I think this is interesting because you're bringing in a fresh perspective. Problems can happen when the reviewer doesn't have enough context before they start diving in. The review ends up being like a copy editor marking up all of your typos, but not able to give higher order feedback because they don't understand the larger system.
+Other teams like to have an **outside person** handle their code reviews. I think this is interesting because you're bringing in a fresh perspective. Problems can happen when the reviewer doesn't have enough context before they start diving in. The review ends up being like a copy editor marking up all of your typos, but not able to give higher order feedback because they don't understand the larger system.
 ---
 class: middle, center
 # Reviewer too close to project
@@ -138,8 +141,8 @@ Some people have shared that their company has **Code Review required for every 
 class: middle, center
 # No one believes in the process
 ???
- - All of this, and more can lead to **teams losing faith in the code review** process. When we have to use a work flow we don't believe in, of course its not going to go well.
-  - Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
+- All of this, and more can lead to **teams losing faith in the code review** process. When we have to use a work flow we don't believe in, of course its not going to go well.
+- Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
 ---
 class: middle
 
@@ -190,7 +193,7 @@ There are four steps to this feedback process:
 
 Step 1: Responders state what about the work had meaning, was interesting or stood out. We can think of this as a way to generate material of what to talk about in more depth later in the process. The important part here is that statements are not evaluative in this step. We save those for later.
 
-There's a great talk from RailsConf 2016 by Nadia Odunayo called _The Guest: A Guide To Code Hospitality_ In it, she proposes that we think about introducing a person to a code base in the same way that a host welcomes a guest into their home. If you are a guest in someone's home you probably wouldn't, upon walking into their home for the first time point out the dirty clothes on the floor. 
+There's a great talk from RailsConf 2016 by Nadia Odunayo (Oh Doo Eye Oh) called _The Guest: A Guide To Code Hospitality_ In it, she proposes that we think about introducing a person to a code base in the same way that a host welcomes a guest into their home. If you are a guest in someone's home you probably wouldn't, upon walking into their home for the first time point out the dirty clothes on the floor. 
 ---
 class: middle
 
@@ -234,6 +237,8 @@ class: middle
 
 "I think I understand how to call the method but not why. Maybe think about including an example use case."
 
+???
+I think I understand how to call the method but not why. Maybe think about including an example use case.
 ---
 class: middle
 ## Step 2: a not so good example
@@ -256,9 +261,9 @@ Purpose: to understand the context of the work. **Should not have an embedded op
 Step 3: Neutral Questions from the Responders
 Responder ask questions to make sure they understand the full context. Questions should not have an embedded opinion.
 
- - To continue that analogy of having a guest in your home, let's say your about to take a shower in the guest bathroom and there's no hot water. You probably wouldn't ask "why's there no hot water?". Instead you might say something like "is there something special I should know about the hot water in the shower" You're leaving a space for the possibility that there may be something special about the house you don't understand ("the hot water takes a long time to come out", "I just took a shower and were out sorry!", etc)
+- To continue that analogy of having a guest in your home, let's say your about to take a shower in the guest bathroom and there's no hot water. You probably wouldn't ask "why's there no hot water?". Instead you might say something like "is there something special I should know about the hot water in the shower" You're leaving a space for the possibility that there may be something special about the house you don't understand ("the hot water takes a long time to come out", "I just took a shower and were out sorry!", etc)
 
-**If you’ve ever given a talk and had someone give a critique disguised as a question, you know what this is.**
+- If you’ve ever given a talk and had someone give a critique disguised as a question, you know what this is.
 
 ---
 class: middle
@@ -296,7 +301,12 @@ class: middle
 **CREATOR** Sure!
 
 **RESPONDER** _opinion here_
+???
+**RESPONDER** I have an opinion about response times in production. Would you like to hear it?
 
+**CREATOR** Sure!
+
+**RESPONDER** _opinion here_
 ---
 class: middle
 
@@ -308,6 +318,11 @@ _moving on..._
 
 
 ???
+**RESPONDER** I have an opinion about the use of FactoryBot in this project, would you like to hear it?
+
+**CREATOR** No thanks!
+
+_moving on..._
 This process believes that the creator knows best how the conversation should be steered in order to yield the best results. It trusts that the creator can see when the conversation is going down an unproductive path and gives them the power to redirect.
 ---
 class: middle, center
@@ -344,8 +359,8 @@ class: middle
 Do you really expect jerks to go along with this?
 ???
 
- - Another question totally disguised as opinion is "Do you really expect jerks to go along with this?" Honestly, I don't. But I also think / hope that in an work environment that isn't completely toxic, there may be some people that will refuse to do this, but there's hopefully more people that _would_ do it if they knew how.
- - While there is formal training on this (I did a day long training with Lerman) you don't need it to get started. Consider yourself empowered to encourage this at your organization.
+- Another question totally disguised as opinion is "Do you really expect jerks to go along with this?" Honestly, I don't. But I also think / hope that in an work environment that isn't completely toxic, there may be some people that will refuse to do this, but there's hopefully more people that _would_ do it if they knew how.
+- While there is formal training on this (I did a day long training with Lerman) you don't need it to get started. Consider yourself empowered to encourage this at your organization.
 
 ---
 class: middle
@@ -365,26 +380,35 @@ class:
  3. Neutral Questions from Responders
  4. Opinions with Consent of Creators
 
+???
+Recap
+
+ 1. Statements of Meaning
+ 2. Questions from Creator
+ 3. Neutral Questions from Responders
+ 4. Opinions with Consent of Creators
 ---
 layout: true
 ---
 name: gtc
 
 ???
- - I want to quickly give a shoutout to the podcast Greater Than Code which is a weekly, panel style podcast which talks about the human side of tech. 
- - They put a call out for guest contributors to their blog and because they seemed so nice on the show I decided to submit an article which eventually became this talk.
- - Were it not for this podcast I wouldn't be standing here right now giving my first full length conference talk.
- - Check them out!
+- I want to quickly give a shoutout to the podcast Greater Than Code which is a weekly, panel style podcast which talks about the human side of tech. 
+- They put a call out for guest contributors to their blog and because they seemed so nice on the show I decided to submit an article which eventually became this talk.
+- Were it not for this podcast I wouldn't be standing here right now giving my first full length conference talk.
+- Check them out!
 
 ---
 name: resources
 # Resources
- - [https://lizlerman.com/critical-response-process/](https://lizlerman.com/critical-response-process/)
+ - [The Liz Lerman Critical Response Process](https://lizlerman.com/critical-response-process/)
  - _Liz Lerman's critical response process: A method for getting useful feedback on anything you make, from dance to dessert_, Liz Lerman and John Borstel (2003)
- - [http://www.jstoebel.com/honesty-kindness-and-inspiration-pick-three/](http://www.jstoebel.com/honesty-kindness-and-inspiration-pick-three/)
- - [https://www.daedtech.com/how-to-use-a-code-review-to-execute-someones-soul/](https://www.daedtech.com/how-to-use-a-code-review-to-execute-someones-soul/)
- - [https://www.youtube.com/watch?v=hHzWG1FltaE](https://www.youtube.com/watch?v=hHzWG1FltaE)
+ - [Honesty, Kindness and Inspiration: Pick Three](http://www.jstoebel.com/honesty-kindness-and-inspiration-pick-three/)
+ - [How to Use a Code Review to Execute Someones Soul](https://www.daedtech.com/how-to-use-a-code-review-to-execute-someones-soul/)
+ - [The Guest: A Guide To Code Hospitality](https://www.youtube.com/watch?v=hHzWG1FltaE)
 
+???
+Here are some resources
 ---
 class: middle
 
