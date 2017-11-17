@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 /*CSS modifcations by J. M. Lilly*/
-.remark-slide-content {background-color: #adccff; padding: 20px 60px 20px 60px;}
+.remark-slide-content {/*background-color: #adccff*/; padding: 20px 60px 20px 60px;}
 .remark-slide-content h1 { font-size: 64pt; font-weight: bold;letter-spacing:0.05em;margin-top: .5em; margin-bottom: 0em;}
 .remark-slide-content h2 { font-size: 50pt; font-weight: bold;letter-spacing:0.05em;margin-top:0em; margin-bottom: 0em;}
 /*.remark-slide-content  h3 { font-size: 1.4em;font-weight: bold;letter-spacing:0.05em;margin-top:0em}*/
@@ -54,5 +54,11 @@ h1, h2, h3 {
 
 #slide-resources li {
   font-size: 24pt !important;
+}
+
+.header {
+  top: 5%;
+  right: 5%;
+  position: absolute;
 }
 

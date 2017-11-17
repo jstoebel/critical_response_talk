@@ -1,1 +1,2 @@
 Jinja2==2.8
+watchdog==0.8.3

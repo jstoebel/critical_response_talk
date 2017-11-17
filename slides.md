@@ -1,3 +1,8 @@
+layout: true
+
+.header[@jstoebel]
+
+---
 class: center,middle
 # Honesty, Kindness and Inspiration: Pick Three
 
@@ -6,8 +11,8 @@ class: center,middle
 # Jacob Stoebel (@jstoebel)
 
 ---
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Code review can be:<br><br>• honest<br>• nice<br><br>Pick one...</p>&mdash; I Am Devloper (@iamdevloper) May 16, 2017</blockquote>
+class: middle, center
+![](iamdeveloper1.png)
 
 ???
 This seems to be the attitude among many developers: I can either 
@@ -73,7 +78,7 @@ class: center, middle
 ---
 class: middle, center
 
-# Brilliant Jerk
+# The Brilliant Jerk
 
 ???
 - I've given this talk before and I've been asked the question "But Linus Torvalds has created so much. For that matter so did Steve Jobs. Aren't brilliant jerks just something worth living with". 
@@ -136,7 +141,7 @@ class: middle, center
  - All of this, and more can lead to **teams losing faith in the code review** process. When we have to use a work flow we don't believe in, of course its not going to go well.
   - Where does that leave us? There needs to be some way to help each other arrive at the best code possible.
 ---
-class: center, middle
+class: middle
 
 # Poop Sandwich
 
@@ -160,7 +165,7 @@ _Objective: inspire the creator to go back to their work with fresh eyes, excite
 - The Critical Response Process has been used by artists, administrators, scientists, academics, and even in the corporate sector. It isn't constrained to works that we would traditionally call "Art". Really, its for anything creative. Software is a perfect use case for this!
 
 ---
-class: middle
+class: middle, center
 
 # The roles
 
@@ -293,6 +298,7 @@ class: middle
 **RESPONDER** _opinion here_
 
 ---
+class: middle
 
 **RESPONDER** I have an opinion about the use of FactoryBot in this project, would you like to hear it?
 
@@ -369,13 +375,15 @@ name: resources
  - [https://www.youtube.com/watch?v=hHzWG1FltaE](https://www.youtube.com/watch?v=hHzWG1FltaE)
 
 ---
+layout: true
+---
 class: middle
 
 # Jacob Stoebel
 
 @jstoebel
 
-www.jstoebel.com
+[www.jstoebel.com](www.jstoebel.com)
 
-github.com/jstoebel/critical_response_talk
+[github.com/jstoebel/critical_response_talk](github.com/jstoebel/critical_response_talk)
 
