@@ -1,7 +1,6 @@
 @font-face{
   font-family: 'EBGaramond-Regular';
   src: url('fonts/EB_Garamond/EBGaramond-Regular.ttf');
-  
 }
 
 @font-face{
@@ -9,6 +8,10 @@
   src: url('fonts/Nunito_Sans/NunitoSans-Black.ttf');
 }
 
+@font-face{
+  font-family: 'EBGaramond-Bold';
+  src: url('fonts/EB_Garamond/EBGaramond-Bold.ttf');
+}
 
 h1, h2, h3 {
   font-family: 'NunitoSans-black';
@@ -25,6 +28,10 @@ h1, h2, h3 {
   font-size: 48pt;
   margin-top: 0em;
   margin-bottom: 0em;
+}
+
+strong {
+  font-family: EBGaramond-Bold;
 }
 .remark-fading { z-index: 9; } 
   
@@ -60,5 +67,10 @@ h1, h2, h3 {
   top: 5%;
   right: 5%;
   position: absolute;
+}
+
+#slide-gtc {
+  background-image: url("gtc_logo.png");
+  background-size: contain;
 }
 
