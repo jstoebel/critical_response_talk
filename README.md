@@ -7,6 +7,11 @@ This is a talk on Liz Lerman's [Critical Response Process](https://lizlerman.com
 
 This slide show is written using remark.js. All dependencies are local (no Internet connection needed). Just load `index.html` in any browser and you're good to go!
 
+## Presentation Hotkeys
+
+_taken from remark github_ 
+Press C to clone a display; then press P to switch to presenter mode. Open help menu with h.
+
 ## Building the presentation
 
 Remark allows you to include slides from a separate `.md` file, but chrome and possibly other browsers does not let javascript access other files when using the `file` protocol. To solve this we _could_ spin up a web server to serve `index.html` but...bleg. We could also drop the content from `slides.md` directly into an html file but that's confusing for most text editors. Instead, we're using a python script to "build" the presentation (really just inserting the markdown contents into `index.html`). This repo should come pre built (meaning `index.html`) is ready to load in any browser, but if you want to make changes you'll need to run `build.py` to rebuild the project. To do so:
