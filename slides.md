@@ -146,12 +146,12 @@ class: middle, center
 ---
 class: middle
 
-# Poop Sandwich
+# S**t Sandwich
 
 _I really liked how you did X but that part where you did Y was not so good. You should do Z instead. But on the whole I loved how it was..._
 
 ???
-- The poop sandwich approach is a _little_ bit better. It helps develop trust within teams because the stuff that's hard to hear is padded between two nice things.
+- The S sandwich approach is a _little_ bit better. It helps develop trust within teams because the stuff that's hard to hear is padded between two nice things.
 - __read it__
 - In a past life, I was a high school drama teacher. Balancing critical feedback with kindness was something always at the forefront of my mind.
 - The problem was that the receiver of the feedback sometimes thought of it like a report card: "I got two good grades and one bad one. On the whole I've got a decent GPA."
@@ -237,10 +237,10 @@ Q: In the docs was it clear to you what this method does? If not how could I mak
 ---
 class: middle
 
-"I think I understand how to call the method but not why. Maybe think about including an example use case."
+"I think I understand what the method does but not how. Maybe think about explaining that."
 
 ???
-I think I understand how to call the method but not why. Maybe think about including an example use case.
+"I think I understand what the method does but not how. Maybe think about explaining that."
 ---
 class: middle
 ## 🚨🚨🚨 Bad Example 🚨🚨🚨
@@ -355,7 +355,7 @@ This framework seems rigid. Does it have to be?
  - Another critique I hear about this framework is that it seems too rigid to be practical. For example:
      + people say their team would prefer the code review to be a more fluid discussion. That's fine. A facilitator familiar with this approach can skip forward and backward into this process based on the needs of the group. 
      + Its also possible to use this process when not everyone knows it by name. If, as a responder you ask questions before giving your opinion, that's a win. If, as a creator, you are guiding the conversation with your questions about the work, that's a win.
-     + I gave this talk at my local meet up recently and one person commented after that "great teams do this naturally without a name for it". I think that's totally true
+     + The last time I gave this talk one person commented after that "great teams do this naturally without a name for it". I think that's totally true
 ---
 class: middle
 
@@ -395,10 +395,7 @@ layout: true
 name: gtc
 
 ???
-- I want to quickly give a shoutout to the podcast Greater Than Code which is a weekly, panel style podcast which talks about the human side of tech. 
-- They put a call out for guest contributors to their blog and because they seemed so nice on the show I decided to submit an article which eventually became this talk.
-- Were it not for this podcast I wouldn't be standing here right now giving my first full length conference talk.
-- Check them out!
+- I want to quickly give a shoutout to the podcast Greater Than Code which is a weekly, panel style podcast which talks about the human side of tech. I'm a panalist and we get into topics like this all the time. Check it out!
 
 ---
 name: resources
